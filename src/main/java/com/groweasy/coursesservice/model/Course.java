@@ -21,10 +21,10 @@ public class Course {
     @Column(name="name", length =150, nullable=false)
     private String name;
 
-    @Column(name="image", length =200, nullable=false)
+    @Column(name="image", length =700, nullable=false)
     private String image;
 
-    @Column(name="description", length =150, nullable=false)
+    @Column(name="description", length =500, nullable=false)
     private String description;
 
     @Column(name="price", length =6, nullable=false)
